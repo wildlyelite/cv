@@ -29,6 +29,20 @@ a{
     margin: 10px 20px;
     text-decoration: none;
     }
+
+p{
+        line-height: 2;
+       }
+   
+    
+hr{
+        border-style: none;
+        border-top: dotted;
+        width: 5%;
+        border-width: 8px;
+        color: gray;
+        margin: 5% auto;
+       }
 a:hover{
     color: #000000;
  }
@@ -44,6 +58,7 @@ a:hover{
      width: 200px;
      position: absolute;
      bottom: 40%;
+     right: 20%;
     }
 .my-pic{
     height: 100px;
@@ -56,21 +71,10 @@ a:hover{
 }    
     
 
-p{
-     line-height: 2;
-    }
 
- 
-hr{
-     border-style: none;
-     border-top: dotted;
-     width: 5%;
-     border-width: 8px;
-     color: gray;
-     margin: 5% auto;
-    }
 .top-container{
     background-color: #eaf6f6;
+    width: auto;
     
     position: relative;
     padding-top: 100px;
@@ -97,8 +101,10 @@ hr{
 .plane{
      position: absolute;
      bottom: 20%;
-     left: 10%;
-     top: 9%;
+     left: 20%;
+     top: 10px;
+     height: 200px;
+     width: 200px;
  }
 .mujahed{
     height: 180px;
